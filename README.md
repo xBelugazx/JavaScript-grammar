@@ -13,6 +13,7 @@ let stringAge = age.toString();
 console.log(typeof stringAge, stringAge); // stringAge라는 number타입을 string타입으로 바꿔줌
 
 2) 암묵적 형 변환 예시
+
 let test = age + ''; // age라는 number 타입에 빈 문자열을 더했다.
 
 console.log(typeof test, test); // age와 문자열 둘 중의 하나는 형 변환을 해야하니, age를 string으로 변환함
