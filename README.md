@@ -9,4 +9,5 @@ Corecion은 타입 변환(Type conversion)을 의미하며 두 가지 종류가 
 let age = 32; // 32라는 값을 가진 number 타입
 
 let stringAge = age.toString();
+
 console.log(typeof stringAge, stringAge); // stringAge라는 number타입을 string타입으로 바꿔줌
