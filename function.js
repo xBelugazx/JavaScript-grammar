@@ -62,3 +62,17 @@ function multiply(x, y) {
 // 함수의 반환값이 있을 때는 변수 선언하듯
 const result1 = multiply(2, 4);
 console.log(result1); 
+
+// Arrow function
+/**
+ * const multiply = (parameter) => {        
+ *      // body
+ * }
+ 
+ // 형태
+ */
+
+const multiply = (x, y) => {
+    return x * y;
+}
+console.log(multiply(3, 4));
