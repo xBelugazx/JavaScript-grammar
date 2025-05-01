@@ -30,3 +30,11 @@ function calculate(number) {
 }// number의 값은 calculate 함수 실행 시 괄호에 넣음
 
 calculate(4);
+
+// variety parameter
+function multiply(x, y) {
+    console.log(x * y);
+} // 외부에서 2개의 값을 받고 싶을 때
+// ,를 기준으로 순서대로
+
+multiply(2, 4);
