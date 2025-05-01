@@ -47,3 +47,18 @@ function multiply(x, y = 10) {
 
 multiply(2, 4); // 그러나 이렇게 쓰면 y에 4가 입력됨
 multiply(2); // 디폴트값이 있는 파라미터는 값이 필요없음
+
+/**
+ * 반환받기
+ * return 받기
+ */
+// if 함수의 결과값을 반환받고 싶으면?
+
+function multiply(x, y) {
+    console.log(x * y); // 얘는 콘솔에 출력하는 기능만 있음
+}
+
+
+// 함수의 반환값이 있을 때는 변수 선언하듯
+const result1 = multiply(2, 4);
+console.log(result1); 
