@@ -38,3 +38,12 @@ function multiply(x, y) {
 // ,를 기준으로 순서대로
 
 multiply(2, 4);
+
+// Default Parameter
+// y에 입력을 안 하면 기본으로 10을 넣어줌
+function multiply(x, y = 10) {
+    console.log(x * y);
+} 
+
+multiply(2, 4); // 그러나 이렇게 쓰면 y에 4가 입력됨
+multiply(2); // 디폴트값이 있는 파라미터는 값이 필요없음
