@@ -79,3 +79,20 @@ console.log(multiply(3, 4));
 
 const multiply3 = (x, y) => x * y;
 console.log(multiply3(4, 5));
+
+const multiply5 = x => y => z => `x" ${x} y: ${y} z: ${z}`;
+console.log(multiply5(2)(5)(7));
+/**
+ * x라는 파라미터를 받는 함수를 반환
+ * y라는 파라미터를 받는 함수를 반환
+ * z라는 파라미터를 받는 함수를 반환
+ */
+
+function multiply6 (x) {
+    return function (y) {
+        return function (z) {
+            return `x" ${x} y: ${y} z: ${z}`;
+        }
+    }
+}
+console.log(multiply6(3)(4)(5));
