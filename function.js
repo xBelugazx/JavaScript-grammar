@@ -76,3 +76,6 @@ const multiply = (x, y) => {
     return x * y;
 }
 console.log(multiply(3, 4));
+
+const multiply3 = (x, y) => x * y;
+console.log(multiply3(4, 5));
